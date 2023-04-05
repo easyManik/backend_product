@@ -1,4 +1,3 @@
-const { v4: uuid } = require("uuid");
 const createError = require("http-errors");
 const errServ = new createError.InternalServerError();
 
